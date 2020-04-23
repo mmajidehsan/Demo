@@ -37,7 +37,7 @@ public class Test1Steps {
       log.info(employee[i].getEmployee_name());
     }
     log.info("Length : " + employee.length);
-    Assert.assertTrue(employee.length>0);
+    Assert.assertTrue(employee.length>3);
   }
 
 
