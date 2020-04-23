@@ -34,7 +34,7 @@ public class Test1Steps {
   public void allUsersAreReturned() {
     Employee[] employee = response.jsonPath().getObject("data", Employee[].class );
     for(int i =0;i<employee.length;i++){
-      log.info(employee[i].getEmployee_name1());
+      log.info(employee[i].getEmployee_name());
     }
     log.info("Length : " + employee.length);
     Assert.assertTrue(employee.length>0);
